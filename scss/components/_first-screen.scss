@@ -1,0 +1,43 @@
+.first-screen {
+    margin-top: 1rem;
+    background-image: url(/images/interior.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2.5rem 2.5rem 0rem 0rem;
+    height: 870px;
+
+    &__content {
+        max-width: 1234px;
+        width: 100%;
+        margin: 0 0 0 auto;
+	    box-sizing: content-box;
+        display: flex;
+        flex-direction: column;
+        padding-top: 9.4rem;
+    }
+
+    &__content-title {
+        line-height: 63px;
+        width: 66.6%;
+        padding-bottom: 16.35rem;
+    }
+
+    &__content-description {
+        font-size: 1rem;
+        font-weight: 400;
+        width: 25.92%;
+        color: var(--white);
+        line-height: 127.57%;
+        padding-bottom: 1.2rem;
+    }
+
+    &__content-consult-me{ 
+        padding: 0.925rem 1.45rem;
+        background-color: var(--red);
+        width: fit-content;
+        font-size: 1.1rem;
+        border-radius: 1rem;
+        color: var(--white);
+        align-self: end;
+    }
+}

@@ -1,0 +1,24 @@
+.prizes {
+    margin-top: 3rem;
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .titles {
+        &__content-item:first-child {
+            width: 38%;
+        }
+
+        &__content-item:last-child {
+            width: 38%;
+            font-weight: 700;
+            text-transform: uppercase;
+            width: 46%;
+            padding: 1.2rem 4.85rem 0rem 0rem;
+
+        }
+    }
+}
